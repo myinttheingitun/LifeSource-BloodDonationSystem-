@@ -1,0 +1,91 @@
+<p align="center"><a href="https://github.com/theHocineSaad/linatabra3" target="_blank"><img src="https://i.imgur.com/pU6Uatt.png"></a></p>
+
+
+------------
+
+
+[![LifeSource home page in Arabic](https://i.imgur.com/1YJgkVT.png "LifeSource home page in Arabic")](https://github.com/theHocineSaad/linatabra3 "LifeSource home page in Arabic")
+
+
+------------
+
+
+[![Linatabra3 home page in French](https://i.imgur.com/MvmhgHc.png "Linatabra3 home page in French")](https://github.com/theHocineSaad/linatabra3 "Linatabra3 home page in French")
+
+## What is LifeSource?
+LifeSource is "**لنتبرع**" written with latin alphabets, which is an Arabic word that means "**let's donate**".
+
+LifeSource is an open source blood donation platform that connects blood seekers with blood donors in their region.
+
+**I used Laravel 9 and Bootstrap.**
+
+## How it works?
+- **For blood donors:** they register using their phone number, blood group, address...
+- **For blood seekers:** they do a quick search where they choose the blood group and the region, then they will get a list of donors with their phone number.
+
+**Here is a live version to check it out:  https://LifeSource.com (for Algeria)**
+
+## Just Arabic and French?
+I created this platform to launch it first in Algeria (My country ❤) that's why I used Arabic and French (they are the most used languages in Algeria).
+I also used Algerian Provinces and Districts.
+
+**We welcome every contribution to make this platform dynamic and multinational.**
+
+## Installation
+#### Step 1 - Clone the project
+    git clone https://github.com/theHocineSaad/linatabra3.git
+
+#### Step 2: Configure the Environment
+Copy .env.example to .env and fill it.
+- Database info.
+- noCaptcha SITEKEY and SECRET, for the reCaptcha in register page, get them from: https://www.google.com/recaptcha/admin.
+
+**Note:** While creating a new site on Google ReCAPTCHA, make sure to choose reCAPTCHA v2 ("I'm not a robot" Checkbox):
+[<img src="https://i.imgur.com/u1ngDam.png">](https://i.imgur.com/u1ngDam.png)
+
+- Mail info, for forgot password feature.
+
+#### Step 3: Run the following commands
+    composer install
+
+------------
+
+    php artisan migrate
+
+
+------------
+
+
+    php artisan db:seed
+
+------------
+
+    php artisan key:generate
+
+------------
+
+    npm install
+
+------------
+
+    npm run dev
+
+#### Step 4: Run the server
+    php artisan serve
+
+#### Factories
+The project has a User factorie.
+
+    php artisan tinker
+
+------------
+
+    \App\Models\User::factory(1999)->create();
+
+Change **1999** to the number of users you want.
+
+## Contributing
+Thank you for considering contributing to LifeSource project! Feel free to contribute in any way, we welcome every contribution.
+
+## License
+LifeSource project is open-sourced software licensed under the [MIT license.](https://github.com/theHocineSaad/linatabra3/blob/main/LICENSE "MIT license.")

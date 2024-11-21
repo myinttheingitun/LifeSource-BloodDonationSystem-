@@ -1,0 +1,72 @@
+body {
+    background-color: #fff;
+}
+
+[dir=ltr] body {
+    font-family: 'Nunito', sans-serif;
+}
+
+[dir=rtl] body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+[dir=rtl] .headline {
+    line-height: 60px !important;
+}
+
+.imgCreditLink {
+    margin-top: -7px;
+    font-size: 10px;
+    color: #bdbdbd;
+}
+
+.imgCreditLink:hover {
+    color: #bdbdbd;
+    cursor: default;
+}
+
+.btn-danger {
+    box-shadow: 0 8px 28px rgb(220 56 72 / 45%);
+}
+
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #dc3545;
+}
+
+::selection {
+    color: white;
+    background: #dc3545;
+}
+
+.searchDonorsBtn {
+    max-height: 48px;
+}
+
+/* Custom scrollbar - it's cool - why not! */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #dc3545 white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #dc3545;    /* color of the scroll thumb */
+    border-radius: 23px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+}

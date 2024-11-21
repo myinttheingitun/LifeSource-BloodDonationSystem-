@@ -1,0 +1,53 @@
+/* .cta {
+  background-color: rgb(226, 226, 226);
+} */
+
+/* share buttons */
+.shareBtns .fa-brands {
+    width: 20px;
+}
+
+.shareBtns .btn {
+    border: none;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    width: 200px;
+    height: 60px;
+}
+
+.whatsappShare {
+    fill: #24af3a;
+}
+
+.fbShare {
+    fill: #286ed6;
+}
+
+.messengerShare {
+    fill: #006aff;
+}
+
+.whatsappShare:hover,
+.fbShare:hover,
+.messengerShare:hover {
+    fill: white;
+}
+
+.whatsappShare:hover {
+    background: #24af3a;
+}
+
+.fbShare:hover {
+    color: white;
+    background-color: #286ed6;
+}
+
+.messengerShare:hover {
+    color: white;
+    background: linear-gradient(to right, #00b2ff 0%, #006aff 100%);
+}
+
+.whatsappShare:hover {
+    color: white;
+    background: #24af3a;
+}

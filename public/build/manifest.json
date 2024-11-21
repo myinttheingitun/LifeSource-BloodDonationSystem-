@@ -1,0 +1,130 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.375cedd6.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/bootstrap/dist/js/bootstrap.esm.js"
+    ]
+  },
+  "resources/js/donorsPage.js": {
+    "file": "assets/donorsPage.d72a0547.js",
+    "src": "resources/js/donorsPage.js",
+    "isEntry": true
+  },
+  "resources/js/gettingTownships.js": {
+    "file": "assets/gettingTownships.549e3cbc.js",
+    "src": "resources/js/gettingTownships.js",
+    "isEntry": true
+  },
+  "resources/js/tsPracticles.js": {
+    "file": "assets/tsPracticles.05139906.js",
+    "src": "resources/js/tsPracticles.js",
+    "isEntry": true
+  },
+  "resources/js/tsPracticlesEngine.js": {
+    "file": "assets/tsPracticlesEngine.76e32d40.js",
+    "src": "resources/js/tsPracticlesEngine.js",
+    "isEntry": true
+  },
+  "resources/js/userDashboard.js": {
+    "file": "assets/userDashboard.0e24726c.js",
+    "src": "resources/js/userDashboard.js",
+    "isEntry": true
+  },
+  "resources/js/registerPage.js": {
+    "file": "assets/registerPage.41a116f3.js",
+    "src": "resources/js/registerPage.js",
+    "isEntry": true
+  },
+  "resources/js/passwordValidationForgotPassword.js": {
+    "file": "assets/passwordValidationForgotPassword.55deab27.js",
+    "src": "resources/js/passwordValidationForgotPassword.js",
+    "isEntry": true
+  },
+  "resources/js/donorsSearchFormValidation.js": {
+    "file": "assets/donorsSearchFormValidation.0972e794.js",
+    "src": "resources/js/donorsSearchFormValidation.js",
+    "isEntry": true
+  },
+  "node_modules/bootstrap/dist/js/bootstrap.esm.js": {
+    "file": "assets/bootstrap.esm.b2a49246.js",
+    "src": "node_modules/bootstrap/dist/js/bootstrap.esm.js",
+    "isDynamicEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.1fd5bbb5.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/forgotPasswordPage.css": {
+    "file": "assets/forgotPasswordPage.223138a0.css",
+    "src": "resources/css/forgotPasswordPage.css",
+    "isEntry": true
+  },
+  "resources/css/homeHero.css": {
+    "file": "assets/homeHero.a12ef423.css",
+    "src": "resources/css/homeHero.css",
+    "isEntry": true
+  },
+  "resources/css/aboutPage.css": {
+    "file": "assets/aboutPage.8381195d.css",
+    "src": "resources/css/aboutPage.css",
+    "isEntry": true
+  },
+  "resources/css/registerPage.css": {
+    "file": "assets/registerPage.5f545203.css",
+    "src": "resources/css/registerPage.css",
+    "isEntry": true
+  },
+  "resources/css/loginPage.css": {
+    "file": "assets/loginPage.9c3ad3ad.css",
+    "src": "resources/css/loginPage.css",
+    "isEntry": true
+  },
+  "resources/css/cta.css": {
+    "file": "assets/cta.914a397d.css",
+    "src": "resources/css/cta.css",
+    "isEntry": true
+  },
+  "resources/css/bloodDonationBenefits.css": {
+    "file": "assets/bloodDonationBenefits.91d90a87.css",
+    "src": "resources/css/bloodDonationBenefits.css",
+    "isEntry": true
+  },
+  "resources/css/stats.css": {
+    "file": "assets/stats.431c0330.css",
+    "src": "resources/css/stats.css",
+    "isEntry": true
+  },
+  "resources/css/donorsPage.css": {
+    "file": "assets/donorsPage.2c278c8b.css",
+    "src": "resources/css/donorsPage.css",
+    "isEntry": true
+  },
+  "resources/css/userDashboard.css": {
+    "file": "assets/userDashboard.2ee72fd6.css",
+    "src": "resources/css/userDashboard.css",
+    "isEntry": true
+  },
+  "resources/css/faq.css": {
+    "file": "assets/faq.8f4c48cc.css",
+    "src": "resources/css/faq.css",
+    "isEntry": true
+  },
+  "resources/css/footer.css": {
+    "file": "assets/footer.99b47084.css",
+    "src": "resources/css/footer.css",
+    "isEntry": true
+  },
+  "resources/css/bootstrap-rtl.css": {
+    "file": "assets/bootstrap-rtl.6923a990.css",
+    "src": "resources/css/bootstrap-rtl.css",
+    "isEntry": true
+  },
+  "resources/css/bootstrap.css": {
+    "file": "assets/bootstrap.6c1cfdc6.css",
+    "src": "resources/css/bootstrap.css",
+    "isEntry": true
+  }
+}
